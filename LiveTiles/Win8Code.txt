@@ -1,6 +1,8 @@
 ﻿
+C# Example Code
 Place the following in your win8 app
+----------------------------------------------
+
 
 // send the notification to the app's application tile
-TileUpdateManager.CreateTileUpdaterForApplication().Update(tileContent.CreateNotification());
 TileUpdateManager.CreateTileUpdaterForApplication().StartPeriodicUpdate(new Uri("http://www.<<SERVERNAME>.com/GOLF/Metro_Definition.ashx", UriKind.Absolute), PeriodicUpdateRecurrence.HalfHour);

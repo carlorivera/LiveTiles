@@ -69,6 +69,7 @@
     <Content Include="Golf\Metro_Square_Front.ashx" />
     <Content Include="Golf\Metro_Wide_Front.ashx" />
     <Content Include="Microsoft.Web.GeneratedImage.dll" />
+    <Content Include="Win8Code.txt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="web.config" />
